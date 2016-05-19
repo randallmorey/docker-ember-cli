@@ -1,6 +1,13 @@
 # Changelog
 
 
+## 2.4.2
+
+Upgraded to the following packages:
+
+* [Ember CLI v2.4.2](https://www.npmjs.com/package/ember-cli)
+
+
 ## 2.4.1
 
 Upgraded to the following packages:
