@@ -47,4 +47,4 @@ docker-compose run --rm ember build --environment production
 ## License
 
 * [License information for Ember CLI](https://github.com/ember-cli/ember-cli/blob/master/LICENSE.md), the software contained in this image.
-* [License information for this project](https://github.com/randallmorey/docker-ember-cli/blob/master/LICENSE.md).
+* [MIT license for this project](https://github.com/randallmorey/docker-ember-cli/blob/master/LICENSE.md).
