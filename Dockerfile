@@ -1,7 +1,7 @@
 FROM mhart/alpine-node:5.11.1
 MAINTAINER Randall Morey <randall@randallmorey.com>
 
-ENV EMBER_CLI_VERSION=2.4.0 \
+ENV EMBER_CLI_VERSION=2.4.1 \
     BOWER_VERSION=1.7.9 \
     PHANTOMJS_DOCKERIZED_VERSION=2.1.1 \
     PHANTOMJS_NPM_VERSION=2.1.7 \

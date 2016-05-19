@@ -1,6 +1,13 @@
 # Changelog
 
 
+## 2.4.1
+
+Upgraded to the following packages:
+
+* [Ember CLI v2.4.1](https://www.npmjs.com/package/ember-cli)
+
+
 ## 2.4.0
 
 The project was initialized with the following default versions:

@@ -1,5 +1,5 @@
 ember: &defaults
-  image: randallmorey/ember-cli:2.4.0
+  image: randallmorey/ember-cli:2.4.1
   command: ['server', '--watcher', 'polling']
   volumes:
     - .:/ember-cli-app

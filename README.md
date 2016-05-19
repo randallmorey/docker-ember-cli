@@ -1,6 +1,7 @@
 Supported tags and respective `Dockerfile` links
 
 * `latest` ([Dockerfile](https://github.com/randallmorey/docker-ember-cli/blob/master/Dockerfile), [docker-compose.yml](https://github.com/randallmorey/docker-ember-cli/blob/master/docker-compose.yml))
+* `2.4.1` ([Dockerfile](https://github.com/randallmorey/docker-ember-cli/blob/2.4.1/Dockerfile), [docker-compose.yml](https://github.com/randallmorey/docker-ember-cli/blob/2.4.1/docker-compose.yml))
 * `2.4.0` ([Dockerfile](https://github.com/randallmorey/docker-ember-cli/blob/2.4.0/Dockerfile), [docker-compose.yml](https://github.com/randallmorey/docker-ember-cli/blob/2.4.0/docker-compose.yml))
 
 A compact Ember CLI container with PhantomJS for testing and build tools for
