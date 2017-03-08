@@ -1,8 +1,8 @@
-FROM mhart/alpine-node:5.11.1
+FROM mhart/alpine-node:7.7.1
 MAINTAINER Randall Morey <randall@randallmorey.com>
 
-ENV EMBER_CLI_VERSION=2.4.3 \
-    BOWER_VERSION=1.7.9 \
+ENV EMBER_CLI_VERSION=2.11.1 \
+    BOWER_VERSION=1.8.0 \
     PHANTOMJS_DOCKERIZED_VERSION=2.1.1 \
     PHANTOMJS_NPM_VERSION=2.1.7 \
     REQUIRED_PACKAGES="curl git python build-base"
@@ -14,7 +14,7 @@ RUN apk --update add ${REQUIRED_PACKAGES} && \
                    phantomjs-prebuilt@${PHANTOMJS_NPM_VERSION} && \
     rm -rf /tmp/* /var/cache/apk/* /root/.npm
 
-EXPOSE 4200 49152
+EXPOSE 3000 4200 49152
 WORKDIR /ember-cli-app
 
 ENTRYPOINT ["/usr/bin/ember"]

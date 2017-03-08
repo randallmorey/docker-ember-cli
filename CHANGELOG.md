@@ -1,6 +1,18 @@
 # Changelog
 
 
+## 2.11.1
+
+Upgrade `docker-compose.yml` to version 2.  Added Ember FastBoot support
+to `docker-compose.yml`.
+
+Upgraded to the following packages:
+
+* Based on [Alpine Linux/Node 7.7.1](https://hub.docker.com/r/mhart/alpine-node/)
+* [Ember CLI v2.11.1](https://www.npmjs.com/package/ember-cli)
+* [Bower v1.8.0](https://www.npmjs.com/package/bower)
+
+
 ## 2.4.3
 
 Upgraded to the following packages:
