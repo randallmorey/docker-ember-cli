@@ -2,7 +2,7 @@ FROM mhart/alpine-node:8.4.0
 MAINTAINER Randall Morey <randall@randallmorey.com>
 
 ENV EMBER_CLI_VERSION=2.14.2 \
-    REQUIRED_PACKAGES="curl git" \
+    REQUIRED_PACKAGES="curl git python build-base" \
     PHANTOMJS_ARCHIVE="phantomjs.tar.gz"
 
 RUN apk --update add ${REQUIRED_PACKAGES} && \
