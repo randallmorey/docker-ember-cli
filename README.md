@@ -1,6 +1,7 @@
 Supported tags and respective `Dockerfile` links
 
 * `latest` ([Dockerfile](https://github.com/randallmorey/docker-ember-cli/blob/master/Dockerfile), [docker-compose.yml](https://github.com/randallmorey/docker-ember-cli/blob/master/docker-compose.yml))
+* `2.14.2` ([Dockerfile](https://github.com/randallmorey/docker-ember-cli/blob/2.14.2/Dockerfile), [docker-compose.yml](https://github.com/randallmorey/docker-ember-cli/blob/2.14.2/docker-compose.yml))
 * `2.11.1` ([Dockerfile](https://github.com/randallmorey/docker-ember-cli/blob/2.11.1/Dockerfile), [docker-compose.yml](https://github.com/randallmorey/docker-ember-cli/blob/2.11.1/docker-compose.yml))
 * `2.4.3` ([Dockerfile](https://github.com/randallmorey/docker-ember-cli/blob/2.4.3/Dockerfile), [docker-compose.yml](https://github.com/randallmorey/docker-ember-cli/blob/2.4.3/docker-compose.yml))
 * `2.4.2` ([Dockerfile](https://github.com/randallmorey/docker-ember-cli/blob/2.4.2/Dockerfile), [docker-compose.yml](https://github.com/randallmorey/docker-ember-cli/blob/2.4.2/docker-compose.yml))

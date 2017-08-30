@@ -2,23 +2,20 @@ version: '2'
 
 services:
   ember: &defaults
-    image: randallmorey/ember-cli:2.11.1
+    image: randallmorey/ember-cli:2.14.2
     entrypoint: ['ember']
-    command: ['server', '--watcher', 'polling']
+    command: ['server']
     volumes:
       - .:/ember-cli-app
     ports:
       - 3000:3000
       - 4200:4200
       - 49152:49152
-  fastboot:
-    <<: *defaults
-    command: ['fastboot', '--serve-assets']
   npm:
     <<: *defaults
-    entrypoint: ['/usr/bin/npm']
+    entrypoint: ['npm']
     command: ['--help']
-  bower:
+  yarn:
     <<: *defaults
-    entrypoint: ['/usr/bin/bower', '--allow-root', '--config.interactive=false']
+    entrypoint: ['yarn']
     command: ['--help']
