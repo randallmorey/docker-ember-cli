@@ -8,9 +8,7 @@ Supported tags and respective `Dockerfile` links
 * `2.4.1` ([Dockerfile](https://github.com/randallmorey/docker-ember-cli/blob/2.4.1/Dockerfile), [docker-compose.yml](https://github.com/randallmorey/docker-ember-cli/blob/2.4.1/docker-compose.yml))
 * `2.4.0` ([Dockerfile](https://github.com/randallmorey/docker-ember-cli/blob/2.4.0/Dockerfile), [docker-compose.yml](https://github.com/randallmorey/docker-ember-cli/blob/2.4.0/docker-compose.yml))
 
-A compact Ember CLI container with PhantomJS for testing and build tools for
-native addons.  Useful for projects which depend on native addons built with
-`node-gyp`, such as `node-sass` or `ember-cli-sass`.
+A compact Ember CLI container with PhantomJS for testing.
 
 
 ## Setup
@@ -23,24 +21,19 @@ new or existing project folder (see `docker-compose.yml` links above).
 
 ## Usage
 
-Run `ember`, `npm`, and `bower` commands as normal by prefixing them
+Run `ember`, `npm`, and `yarn` commands as normal by prefixing them
 with `docker-compose run --rm`.
 
 For example:
 ```
 docker-compose run --rm ember init
 docker-compose run --rm npm install
-docker-compose run --rm bower install
+docker-compose run --rm yarn add
 ```
 
 Run the Ember server:
 ```
 docker-compose up ember
-```
-
-Run the Ember fastboot server:
-```
-docker-compose up fastboot
 ```
 
 Run tests:
